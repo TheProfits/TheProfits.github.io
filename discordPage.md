@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Discrord
+title: Discord
 subtitle: Why you'd want to go on a date with me
 ---
 
