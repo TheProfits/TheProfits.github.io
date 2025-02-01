@@ -10,21 +10,19 @@
 ############################
 
 # Name of website
-title: My amazing website
+title: The Profits
 
 # Your name to show in the footer
-author: Some Person
+author: The Profits Team
 
 ###############################################
 # --- List of links in the navigation bar --- #
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+  About Us: "aboutme"
+  Discord: "discordPage"
+  Anything Else We Want: "https://deanattali.com"
 
 ################
 # --- Logo --- #
