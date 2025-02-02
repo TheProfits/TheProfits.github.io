@@ -383,6 +383,7 @@ img {
 .navbar-custom.top-nav-expanded .avatar-container {
   display: none;
 }
+z
 @media (min-width: 1200px) {
   .navbar-custom.top-nav-regular .avatar-container {
     width: 6.25rem;
@@ -402,14 +403,7 @@ img {
     width: 100%;
   }
 }
-/* Custom navbar link color */
-.navbar-custom .navbar-nav .nav-link {
-  color: #FF5733;
-}
 
-.navbar-custom .navbar-nav .nav-link:hover {
-  color: #C70039;
-}
 /* --- Footer --- */
 
 footer {
