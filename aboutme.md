@@ -33,7 +33,7 @@ Are you ready to build wealth, unlock new income streams, and join a community o
 
 Join thousands of members who are already taking control of their financial destiny.
 
-[![Join The Profits on Discord](./assets/img/joinus.png)](https://discord.gg/your-invite-link)
+[![Join The Profits on Discord](./assets/img/joinus.png)](https://discord.gg/CGd3uptBZ3)
 
 *Click the button above to jump into our exclusive Discord community and start your journey towards financial freedom.*
 
