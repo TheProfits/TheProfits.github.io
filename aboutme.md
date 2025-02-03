@@ -33,7 +33,7 @@ Are you ready to build wealth, unlock new income streams, and join a community o
 
 Join thousands of members who are already taking control of their financial destiny.
 
-[![Join The Profits on Discord](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2Fpterm%2Fpterm%2Fissues%2F333&psig=AOvVaw3YGeBtXhNIKN0KHTvXeVXX&ust=1738686491584000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLiVy4j2p4sDFQAAAAAdAAAAABAJ)](https://discord.gg/your-invite-link)
+[![Join The Profits on Discord](https://user-images.githubusercontent.com/31022056/158916278-4504b838-7ecb-4ab9-a900-7dc002aade78.png)](https://discord.gg/your-invite-link)
 
 *Click the button above to jump into our exclusive Discord community and start your journey towards financial freedom.*
 
