@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to the Profits – No Course, No Premium, Just Profits
+title: Welcome to the Profits
 subtitle: Join a thriving community dedicated to building wealth, sharing ideas, and achieving financial freedom.
 ---
 
