@@ -4,8 +4,6 @@ title: Welcome to the Profits
 subtitle: Join a thriving community dedicated to building wealth, sharing ideas, and achieving financial freedom.
 ---
 
-# Welcome to The Profits!
-
 **No Course. No Premium. Just Profits.**
 
 Are you ready to build wealth, unlock new income streams, and join a community of ambitious, like-minded individuals? At The Profits, we’re all about sharing actionable ideas, expert insights, and proven strategies to help you succeed—without the need for expensive courses.
