@@ -2,9 +2,9 @@
 layout: page
 subtitle: Join a thriving community dedicated to building wealth, sharing ideas, and achieving financial freedom.
 ---
-<center>
+<div align="center">
 # Welcome to The Profits!
-</center>
+</div>
 **No Course. No Premium. Just Profits.**
 
 Are you ready to build wealth, unlock new income streams, and join a community of ambitious, like-minded individuals? At **The Profits**, we’re all about sharing actionable ideas, expert insights, and proven strategies to help you succeed—without the need for expensive courses.
