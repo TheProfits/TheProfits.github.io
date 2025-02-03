@@ -1,15 +1,14 @@
 ---
 layout: page
-title: Welcome to the Profits
 subtitle: Join a thriving community dedicated to building wealth, sharing ideas, and achieving financial freedom.
 ---
-
+<center>
 # Welcome to The Profits!
 
 **No Course. No Premium. Just Profits.**
 
 Are you ready to build wealth, unlock new income streams, and join a community of ambitious, like-minded individuals? At **The Profits**, we’re all about sharing actionable ideas, expert insights, and proven strategies to help you succeed—without the need for expensive courses.
-
+</center>
 ---
 
 ## Why Join Us?
@@ -28,10 +27,10 @@ Are you ready to build wealth, unlock new income streams, and join a community o
 - **Step-by-Step Guidance:** Whether you’re just starting out or scaling up, we’ve got you covered with practical, easy-to-follow steps.
 
 ---
-
+<center>
 ## Ready to Transform Your Financial Future?
 
-Join thousands of members who are already taking control of their financial destiny. This is more than just another group—it’s a movement dedicated to making profits without the fluff.
+Join thousands of members who are already taking control of their financial destiny.
 
 [**👉 Join The Profits on Discord Now!**](https://discord.gg/your-invite-link)
 
@@ -40,3 +39,4 @@ Join thousands of members who are already taking control of their financial dest
 ---
 
 **No Course. No Premium. Just Profits.**
+</center>
