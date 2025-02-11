@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Welcome to the Profits
+title: The Profits
 subtitle: Join a thriving community dedicated to building wealth, sharing ideas, and achieving financial freedom.
 ---
 
@@ -31,7 +31,11 @@ Are you ready to build wealth, unlock new income streams, and join a community o
 
 Join thousands of members who are already taking control of their financial destiny.
 
-[![Join The Profits on Discord](./assets/img/joinus.png)](https://discord.gg/CGd3uptBZ3)
+<div style="text-align: center;">
+  <a href="https://discord.gg/CGd3uptBZ3">
+    <img src="./assets/img/joinus.png" alt="Join The Profits on Discord" style="max-width: 300px; width: 100%; height: auto;">
+  </a>
+</div>
 
 *Click the button above to jump into our exclusive Discord community and start your journey towards financial freedom.*
 
