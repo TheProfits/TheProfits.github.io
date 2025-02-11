@@ -33,7 +33,7 @@ Join thousands of members who are already taking control of their financial dest
 
 <div style="text-align: center;">
   <a href="https://discord.gg/CGd3uptBZ3">
-    <img src="./assets/img/joinus.png" alt="Join The Profits on Discord" style="max-width: 300px; width: 100%; height: auto;">
+    <img src="./assets/img/joinus.png" alt="Join The Profits on Discord">
   </a>
 </div>
 
