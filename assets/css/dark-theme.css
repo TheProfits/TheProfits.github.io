@@ -1,0 +1,89 @@
+:root {
+  --bg-dark: #1a1c2c;
+  --bg-darker: #13141f;
+  --card-bg: #2a2c3c;
+  --text-primary: #ffffff;
+  --text-secondary: #e0e0e0;
+  --discord-blue: #7289DA;
+  --discord-light: #5865F2;
+}
+
+body {
+  background: var(--bg-dark) !important;
+  color: var(--text-secondary) !important;
+}
+
+.page-heading {
+  color: var(--text-primary);
+}
+
+.navbar {
+  background-color: var(--bg-darker) !important;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav .nav-link {
+  color: var(--text-primary) !important;
+}
+
+.footer {
+  background-color: var(--bg-darker) !important;
+  color: var(--text-primary) !important;
+}
+
+.footer a {
+  color: var(--discord-blue) !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: var(--text-primary);
+}
+
+p {
+  color: var(--text-secondary);
+}
+
+/* Additional text color fixes */
+.lead {
+  color: var(--text-secondary) !important;
+}
+
+/* Fix value proposition text */
+.value-prop p, 
+.value-prop .lead {
+  color: var(--text-primary) !important;
+}
+
+.text-muted {
+  color: var(--text-secondary) !important;
+}
+
+li {
+  color: var(--text-secondary);
+}
+
+.subtitle {
+  color: var(--text-secondary) !important;
+}
+
+blockquote {
+  color: var(--text-secondary) !important;
+}
+
+/* Fix any dark text in cards */
+.principle-card, .benefit-item, .story {
+  color: var(--text-secondary);
+}
+
+.principle-icon {
+  color: var(--discord-blue);
+}
+
+/* Ensure links are visible */
+a {
+  color: var(--discord-blue);
+}
+
+a:hover {
+  color: var(--discord-light);
+} 
