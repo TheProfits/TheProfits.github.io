@@ -51,7 +51,6 @@ common-js:
           <i class="fas fa-times"></i>
         </button>
       </div>
-      <div class="chat-time" id="chatTime">19:30</div>
       <div class="chat-message">
         <img src="{{ site.avatar | relative_url }}" alt="Support Team" class="message-img">
         <div class="message-content">
@@ -78,25 +77,10 @@ common-js:
   <!-- Add Discord popup functionality -->
   <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // Set current time
-    function updateChatTime() {
-      const now = new Date();
-      const hours = now.getHours().toString().padStart(2, '0');
-      const minutes = now.getMinutes().toString().padStart(2, '0');
-      document.getElementById('chatTime').textContent = `${hours}:${minutes}`;
-    }
-    
-    // Update time immediately and then every minute
-    updateChatTime();
-    setInterval(updateChatTime, 60000);
-
     // Discord Popup Toggle
     window.toggleDiscordPopup = function() {
       const popup = document.getElementById('discordPopup');
       popup.classList.toggle('show');
-      if(popup.classList.contains('show')) {
-        updateChatTime(); // Update time when popup opens
-      }
     }
 
     // Close popup when clicking outside

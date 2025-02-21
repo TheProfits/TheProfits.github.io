@@ -1171,13 +1171,6 @@ pre {
   font-size: 1.2rem;
 }
 
-.chat-time {
-  text-align: center;
-  color: var(--text-secondary);
-  font-size: 0.9rem;
-  padding: 10px;
-}
-
 .chat-message {
   display: flex;
   gap: 10px;
