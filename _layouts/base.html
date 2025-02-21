@@ -17,6 +17,7 @@ common-ext-js:
     sri: "sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 common-js:
   - "/assets/js/beautifuljekyll.js"
+  - "/assets/js/custom.js"
 ---
 
 <!DOCTYPE html>
@@ -35,14 +36,78 @@ common-js:
 
   {% include footer.html %}
 
-  <!-- Add floating Discord button -->
-  <a href="https://discord.gg/CGd3uptBZ3" class="floating-discord" aria-label="Join our Discord">
-    <i class="fab fa-discord"></i>
-  </a>
+  <!-- Add floating Discord button and popup -->
+  <div class="discord-container">
+    <div class="chat-popup" id="discordPopup">
+      <div class="chat-header">
+        <div class="chat-profile">
+          <img src="{{ site.avatar | relative_url }}" alt="Support Team" class="profile-img">
+          <div class="profile-info">
+            <div class="profile-name">The Profits Team</div>
+            <div class="profile-title">Support Team</div>
+          </div>
+        </div>
+        <button class="close-btn" onclick="toggleDiscordPopup()">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="chat-time" id="chatTime">19:30</div>
+      <div class="chat-message">
+        <img src="{{ site.avatar | relative_url }}" alt="Support Team" class="message-img">
+        <div class="message-content">
+          Hey there! 👋 Ready to start making profits? Join our free community and start making profits today!
+        </div>
+      </div>
+      <div class="chat-cta">
+        <p>Start Chat with:</p>
+        <a href="https://discord.gg/CGd3uptBZ3" class="discord-link">
+          <i class="fab fa-discord"></i> Discord
+        </a>
+      </div>
+    </div>
+    <a href="javascript:void(0);" class="floating-discord" onclick="toggleDiscordPopup();" aria-label="Join our Discord">
+      <i class="fab fa-discord"></i>
+    </a>
+  </div>
 
   {% include footer-scripts.html %}
   
   <!-- Add our animations script -->
   <script src="{{ '/assets/js/animations.js' | relative_url }}"></script>
+
+  <!-- Add Discord popup functionality -->
+  <script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Set current time
+    function updateChatTime() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      document.getElementById('chatTime').textContent = `${hours}:${minutes}`;
+    }
+    
+    // Update time immediately and then every minute
+    updateChatTime();
+    setInterval(updateChatTime, 60000);
+
+    // Discord Popup Toggle
+    window.toggleDiscordPopup = function() {
+      const popup = document.getElementById('discordPopup');
+      popup.classList.toggle('show');
+      if(popup.classList.contains('show')) {
+        updateChatTime(); // Update time when popup opens
+      }
+    }
+
+    // Close popup when clicking outside
+    document.addEventListener('click', function(event) {
+      const popup = document.getElementById('discordPopup');
+      const discordContainer = document.querySelector('.discord-container');
+      if (popup && discordContainer && !discordContainer.contains(event.target)) {
+        popup.classList.remove('show');
+      }
+    });
+  });
+  </script>
 </body>
 </html>

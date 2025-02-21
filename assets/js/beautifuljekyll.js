@@ -27,14 +27,12 @@ let BeautifulJekyllJS = {
 
     // show the big header image
     BeautifulJekyllJS.initImgs();
-
-    BeautifulJekyllJS.initSearch();
   },
 
   initNavbar : function() {
-    // Set the navbar-dark/light class based on its background color
+    // Remove search initialization
     const rgb = $('.navbar').css("background-color").replace(/[^\d,]/g,'').split(",");
-    const brightness = Math.round(( // http://www.w3.org/TR/AERT#color-contrast
+    const brightness = Math.round((
       parseInt(rgb[0]) * 299 +
       parseInt(rgb[1]) * 587 +
       parseInt(rgb[2]) * 114
@@ -110,30 +108,6 @@ let BeautifulJekyllJS = {
     } else {
       $(".img-desc").hide();
     }
-  },
-
-  initSearch : function() {
-    if (!document.getElementById("beautifuljekyll-search-overlay")) {
-      return;
-    }
-
-    $("#nav-search-link").click(function(e) {
-      e.preventDefault();
-      $("#beautifuljekyll-search-overlay").show();
-      $("#nav-search-input").focus().select();
-      $("body").addClass("overflow-hidden");
-    });
-    $("#nav-search-exit").click(function(e) {
-      e.preventDefault();
-      $("#beautifuljekyll-search-overlay").hide();
-      $("body").removeClass("overflow-hidden");
-    });
-    $(document).on('keyup', function(e) {
-      if (e.key == "Escape") {
-        $("#beautifuljekyll-search-overlay").hide();
-        $("body").removeClass("overflow-hidden");
-      }
-    });
   }
 };
 
