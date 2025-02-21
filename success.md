@@ -24,7 +24,7 @@ body {
 }
 </style>
 
-<div class="success-stories">
+<div class="success-stories fade-in">
   <div class="story">
     <div class="story-header">
       <div class="story-meta">

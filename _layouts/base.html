@@ -25,6 +25,9 @@ common-js:
 
 <body>
   {% include gtm_body.html %}
+  
+  <!-- Add the Intersection Observer polyfill -->
+  <script src="https://unpkg.com/intersection-observer"></script>
 
   {% include nav.html %}
 
@@ -32,7 +35,14 @@ common-js:
 
   {% include footer.html %}
 
-  {% include footer-scripts.html %}
+  <!-- Add floating Discord button -->
+  <a href="https://discord.gg/CGd3uptBZ3" class="floating-discord" aria-label="Join our Discord">
+    <i class="fab fa-discord"></i>
+  </a>
 
+  {% include footer-scripts.html %}
+  
+  <!-- Add our animations script -->
+  <script src="{{ '/assets/js/animations.js' | relative_url }}"></script>
 </body>
 </html>

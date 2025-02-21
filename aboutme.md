@@ -34,7 +34,7 @@ body {
     </div>
   </div>
 
-  <div class="principles-grid">
+  <div class="principles-grid fade-in">
     <div class="principle-card">
       <h3 class="text-center">Trading Signals</h3>
       <ul class="text-center list-unstyled">
@@ -98,7 +98,7 @@ body {
     </div>
   </div>
 
-  <div class="cta-section text-center">
+  <div class="cta-section text-center fade-in">
     <h2>Ready to Start?</h2>
     <p class="lead">Join thousands of members already building their financial future with The Profits.</p>
     <a href="https://discord.gg/CGd3uptBZ3" class="btn btn-primary btn-lg cta-button">
@@ -172,22 +172,33 @@ body {
 .benefit-item {
   text-align: center;
   padding: 20px;
+  background: var(--card-bg);
+  border-radius: 10px;
+  box-shadow: 0 2px 15px rgba(0,0,0,0.2);
+  transition: transform 0.3s ease;
+}
+
+.benefit-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 20px rgba(114, 137, 218, 0.2);
 }
 
 .benefit-item i {
   font-size: 2.5rem;
-  color: #7289DA;
+  color: var(--discord-blue);
   margin-bottom: 15px;
 }
 
 .benefit-item h4 {
-  color: #2c3e50;
+  color: var(--text-primary);
   margin-bottom: 15px;
 }
 
 .benefit-item p {
-  color: #666;
+  color: var(--text-secondary);
   margin: 0;
+  font-size: 1.1rem;
+  line-height: 1.5;
 }
 
 .cta-section {
