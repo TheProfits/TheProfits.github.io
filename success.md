@@ -27,7 +27,6 @@ body {
 <div class="success-stories">
   <div class="story">
     <div class="story-header">
-      <img src="assets/img/testimonials/alex.jpg" alt="Alex" class="testimonial-img">
       <div class="story-meta">
         <h3>Alex K.</h3>
         <p class="text-muted">Forex Trading • 6 months with The Profits</p>
@@ -40,7 +39,6 @@ body {
 
   <div class="story">
     <div class="story-header">
-      <img src="assets/img/testimonials/sarah.jpg" alt="Sarah" class="testimonial-img">
       <div class="story-meta">
         <h3>Sarah M.</h3>
         <p class="text-muted">Dropshipping • 3 months with The Profits</p>
@@ -53,7 +51,6 @@ body {
 
   <div class="story">
     <div class="story-header">
-      <img src="assets/img/testimonials/james.jpg" alt="James" class="testimonial-img">
       <div class="story-meta">
         <h3>James R.</h3>
         <p class="text-muted">Crypto Trading • 4 months with The Profits</p>
@@ -66,7 +63,6 @@ body {
 
   <div class="story">
     <div class="story-header">
-      <img src="assets/img/testimonials/emma.jpg" alt="Emma" class="testimonial-img">
       <div class="story-meta">
         <h3>Emma L.</h3>
         <p class="text-muted">Print On Demand • 5 months with The Profits</p>
@@ -109,14 +105,6 @@ body {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
-}
-
-.testimonial-img {
-  width: 60px;
-  height: 60px;
-  border-radius: 50%;
-  margin-right: 15px;
-  object-fit: cover;
 }
 
 .story-meta h3 {
