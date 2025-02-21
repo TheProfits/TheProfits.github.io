@@ -36,47 +36,35 @@ body {
 
   <div class="principles-grid">
     <div class="principle-card">
-      <div class="principle-icon">
-        <i class="fas fa-chart-line fa-3x"></i>
-      </div>
-      <h3>🎯 Results-Driven Approach</h3>
-      <ul>
-        <li>Verified trading signals with tracked success rates</li>
-        <li>Step-by-step implementation guides</li>
-        <li>Real case studies from community members</li>
+      <h3 class="text-center">Trading Signals</h3>
+      <ul class="text-center list-unstyled">
+        <li>Daily forex and crypto signals</li>
+        <li>85%+ verified accuracy rate</li>
+        <li>Real-time market analysis</li>
       </ul>
     </div>
 
     <div class="principle-card">
-      <div class="principle-icon">
-        <i class="fas fa-users fa-3x"></i>
-      </div>
-      <h3>💪 Active Community Support</h3>
-      <ul>
-        <li>24/7 chat with experienced members</li>
-        <li>Daily market analysis and discussions</li>
-        <li>Networking with successful entrepreneurs</li>
+      <h3 class="text-center">Matched Betting</h3>
+      <ul class="text-center list-unstyled">
+        <li>Proven money-making methods</li>
+        <li>Guaranteed wins</li>
+        <li>Day 1 Profits</li>
       </ul>
     </div>
 
     <div class="principle-card">
-      <div class="principle-icon">
-        <i class="fas fa-graduation-cap fa-3x"></i>
-      </div>
-      <h3>📚 Continuous Learning</h3>
-      <ul>
-        <li>Regular strategy updates</li>
-        <li>Market trend analysis</li>
-        <li>Risk management education</li>
+      <h3 class="text-center">Automation</h3>
+      <ul class="text-center list-unstyled">
+        <li>Automated trading systems</li>
+        <li>Passive income streams</li>
+        <li>Scaling strategies</li>
       </ul>
     </div>
 
     <div class="principle-card">
-      <div class="principle-icon">
-        <i class="fas fa-money-bill-wave fa-3x"></i>
-      </div>
-      <h3>💰 Passive Income Focus</h3>
-      <ul>
+      <h3 class="text-center">Passive Income Focus</h3>
+      <ul class="text-center list-unstyled">
         <li>Automated trading systems</li>
         <li>Recurring revenue models</li>
         <li>Long-term wealth building</li>
@@ -143,25 +131,21 @@ body {
 }
 
 .principle-card {
-  background: white;
+  background: var(--card-bg);
   padding: 30px;
   border-radius: 10px;
-  box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 2px 15px rgba(0,0,0,0.2);
   transition: transform 0.3s ease;
 }
 
 .principle-card:hover {
   transform: translateY(-5px);
-}
-
-.principle-icon {
-  color: #7289DA;
-  margin-bottom: 20px;
+  box-shadow: 0 5px 20px rgba(114, 137, 218, 0.2);
 }
 
 .principle-card h3 {
   margin-bottom: 20px;
-  color: #2c3e50;
+  color: var(--text-primary);
 }
 
 .principle-card ul {
@@ -171,7 +155,7 @@ body {
 
 .principle-card li {
   margin-bottom: 10px;
-  color: #555;
+  color: var(--text-secondary);
 }
 
 .benefits-section {
