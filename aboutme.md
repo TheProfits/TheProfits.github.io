@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About The Profits
-subtitle: Your path to financial freedom starts here
+subtitle: No Course, No Premium, Just Profits
 ---
 
 <style>
