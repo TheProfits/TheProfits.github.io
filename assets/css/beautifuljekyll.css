@@ -1174,8 +1174,8 @@ pre {
 .chat-message {
   display: flex;
   gap: 10px;
-  padding: 0 15px;
-  margin-bottom: 15px;
+  padding: 15px;
+  margin-bottom: 0;
 }
 
 .message-img {
