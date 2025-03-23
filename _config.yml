@@ -22,7 +22,7 @@ author: The Profits Team
 navbar-links:
   About: "aboutme"
   Join Discord: "https://discord.gg/CGd3uptBZ3"
-  Success Stories: "success"
+  #Success Stories: "success"
 
 ################
 # --- Logo --- #

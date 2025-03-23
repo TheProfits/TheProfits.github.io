@@ -2,6 +2,7 @@
 layout: page
 title: Our Story
 subtitle: The Journey Behind The Profits
+show_testimonials: false
 ---
 
 <style>
@@ -124,6 +125,7 @@ body {
     <a href="https://discord.gg/CGd3uptBZ3" class="btn btn-primary btn-lg join-button">
       <i class="fab fa-discord"></i> Join Our Discord
     </a>
+  </div>
 </div>
 
 <style>
@@ -261,6 +263,8 @@ body {
   line-height: 1.6;
 }
 
+{% if page.show_testimonials %}
+/* Testimonials section styles - currently disabled */
 .testimonials-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -309,6 +313,7 @@ body {
   color: var(--discord-blue);
   font-weight: bold;
 }
+{% endif %}
 
 .join-section {
   margin-top: 60px;
