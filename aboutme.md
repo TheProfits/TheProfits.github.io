@@ -24,10 +24,21 @@ body {
 .page-heading {
   color: var(--text-primary);
 }
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.appear {
+  opacity: 1;
+  transform: translateY(0);
+}
 </style>
 
 <div class="about-container">
-  <div class="story-section">
+  <div class="story-section fade-in">
     <div class="story-content text-center">
       <h2>Who We Are</h2>
       <p>
@@ -42,7 +53,7 @@ body {
     </div>
   </div>
 
-  <div class="mission-section">
+  <div class="mission-section fade-in">
     <div class="section-divider"></div>
     <h2 class="text-center">Our Mission</h2>
     <div class="mission-content">
@@ -80,7 +91,7 @@ body {
     </div>
   </div>
 
-  <div class="journey-section">
+  <div class="journey-section fade-in">
     <div class="section-divider"></div>
     <h2 class="text-center">Our Journey</h2>
     <div class="timeline">
@@ -119,7 +130,7 @@ body {
     </div>
   </div>
 
-  <div class="join-section text-center">
+  <div class="join-section text-center fade-in">
     <h2>Become Part of The Community</h2>
     <p class="lead">Join The Profits today and start your journey toward financial independence—no premium subscriptions, no course purchases, just a supportive community with proven strategies.</p>
     <a href="https://discord.gg/CGd3uptBZ3" class="btn btn-primary btn-lg join-button">
